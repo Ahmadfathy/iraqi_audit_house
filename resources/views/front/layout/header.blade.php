@@ -52,27 +52,27 @@
                                     <ul class="nav nav-pills" id="mainNav">
                                         <li>
                                             <a class="nav-link active" href="{{'/'}}">
-                                                Home
+                                                {{__('main.home')}}
                                             </a>
                                         </li>
                                         <li>
                                             <a class="nav-link" href="{{ url('front/about') }}">
-                                                Company
+                                                {{__('main.about')}}
                                             </a>
                                         </li>
                                         <li>
                                             <a class="nav-link" href="{{ url('front/services') }}">
-                                                Strategies
+                                                {{__('main.services')}}
                                             </a>
                                         </li>
                                         <li>
                                             <a class="nav-link" href="{{ url('front/team') }}">
-                                                Team
+                                                {{__('main.team')}}
                                             </a>
                                         </li>
                                         <li>
                                             <a class="nav-link" href="{{ url('front/contact') }}">
-                                                Contact
+                                                {{__('main.contact')}}
                                             </a>
                                         </li>
                                     </ul>
