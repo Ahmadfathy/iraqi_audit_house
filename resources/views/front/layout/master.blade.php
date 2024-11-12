@@ -1,4 +1,4 @@
-<html lang="en">
+<html @if (app()->getLocale() == 'ar') lang="ar" direction="rtl" dir="rtl" style="direction: rtl" @else lang="en" @endif>
 	<!--begin::Head-->
 	<head>
         <base href="{{ asset('assets/front') }}/">
@@ -9,13 +9,17 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="shortcut icon" href="media/logos/favicon.ico" />
+		<link rel="shortcut icon" href="img/logo.png" />
 		<!--begin::Fonts(mandatory for all pages)-->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link id="googleFonts" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" type="text/css">
-		<!--end::Fonts-->
-		
+		<link href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap" rel="stylesheet">
+		<style>
+			body, * {
+				font-family: "Changa", sans-serif;
+			}
+		</style>
+
 		<!-- Vendor CSS -->
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css">
@@ -26,16 +30,20 @@
 		<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
 
 		<!-- Theme CSS -->
-		<link rel="stylesheet" href="css/theme.css">
 		<link rel="stylesheet" href="css/theme-elements.css">
 		<link rel="stylesheet" href="css/theme-blog.css">
 		<link rel="stylesheet" href="css/theme-shop.css">
-
-		<!-- Demo CSS -->
-		<link rel="stylesheet" href="css/demos/demo-finance.css">
-
 		<!-- Skin CSS -->
 		<link id="skinCSS" rel="stylesheet" href="css/skins/skin-finance.css">
+		
+		@if (app()->getLocale() == 'ar')
+			<link rel="stylesheet" href="css/demos/rtl-demo-finance.css">
+			<link rel="stylesheet" href="css/rtl-theme.css">
+		@else
+		{{-- <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" type="text/css"> --}}
+			<link rel="stylesheet" href="css/theme.css">
+			<link rel="stylesheet" href="css/demos/demo-finance.css">
+		@endif
 
         @stack('css')
 		<script>// Frame-busting to prevent site from being loaded within a frame without permission (click-jacking) if (window.top != window.self) { window.top.location.replace(window.self.location.href); }</script>

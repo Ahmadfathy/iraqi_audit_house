@@ -8,15 +8,17 @@
                     </div>
                     <div class="col-auto d-flex align-items-center">
                         <div class="header-nav-top">
-                            <a class="text-color-dark text-color-hover-primary font-weight-semibold text-2-5 text-decoration-none px-3" href="#" role="button" id="dropdownLanguage" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                ENG
-                                <i class="fas fa-angle-down ms-1"></i>
-                            </a>
-                            <div class="dropdown-menu dropdown-menu-arrow-centered min-width-0" aria-labelledby="dropdownLanguage">
-                                <a class="dropdown-item text-1" href="#">ESP</a>
-                                <a class="dropdown-item text-1" href="#">FRA</a>
-                                <a class="dropdown-item text-1" href="#">ENG</a>
-                            </div>
+                            @if (app()->getLocale() == 'ar')
+                                <a class="text-color-dark text-color-hover-primary font-weight-semibold text-2-5 text-decoration-none px-3"
+                                    href="{{ LaravelLocalization::getLocalizedURL('en', null, [], true) }}">
+                                    ENG
+                                </a>
+                            @else
+                                <a class="text-color-dark text-color-hover-primary font-weight-semibold text-2-5 text-decoration-none px-3"
+                                    href="{{ LaravelLocalization::getLocalizedURL('ar', null, [], true) }}">
+                                    العربية
+                                </a>
+                            @endif
                         </div>
                         <ul class="header-social-icons social-icons social-icons-clean social-icons-icon-dark border border-top-0 border-end-0 border-bottom-0 ps-3 ms-2 mb-0 d-none d-sm-block">
                             <li class="social-icons-facebook">
@@ -39,7 +41,7 @@
                     <div class="header-row">
                         <div class="header-logo">
                             <a href="{{'/'}}">
-                                <img alt="Porto Finance" width="123" height="48" src="img/demos/finance/logo.png">
+                                <img alt="Porto Finance" width="123" src="img/logo.png">
                             </a>
                         </div>
                     </div>

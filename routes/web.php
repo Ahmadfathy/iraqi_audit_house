@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,21 +14,26 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('front.index');
-});
+Route::group(['prefix' => LaravelLocalization::setLocale(),
+'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ] ],
+function () {
 
-Route::group(['prefix'=>'front'], function(){
-    Route::get('/about', function () {
-        return view('front/about');
+    Route::get('/', function () {
+        return view('front.index');
     });
-    Route::get('/contact', function () {
-        return view('front/contact');
-    })
-    ;Route::get('/services', function () {
-        return view('front/services');
-    });
-    Route::get('/team', function () {
-        return view('front/team');
+
+    Route::group(['prefix'=>'front'], function(){
+        Route::get('/about', function () {
+            return view('front/about');
+        });
+        Route::get('/contact', function () {
+            return view('front/contact');
+        })
+        ;Route::get('/services', function () {
+            return view('front/services');
+        });
+        Route::get('/team', function () {
+            return view('front/team');
+        });
     });
 });
