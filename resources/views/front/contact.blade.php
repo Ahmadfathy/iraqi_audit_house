@@ -1,71 +1,13 @@
 @extends('front.layout.master')
 
 @section('title')
+{{__('main.contact')}}
 @endsection
 
 @push('css')
 @endpush
 
 @push('js')
-
-<script>
-
-    /* 
-    Map Markers:
-    - Get an API Key: https://developers.google.com/maps/documentation/javascript/get-api-key
-    - Generate Map Id: https://console.cloud.google.com/google/maps-apis/studio/maps
-    - Use https://www.latlong.net/convert-address-to-lat-long.html to get Latitude and Longitude of a specific address
-    */
-    (g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
-        ({key: "YOUR_API_KEY", v: "weekly"});
-
-    async function initMap() {
-        const { Map, InfoWindow } = await google.maps.importLibrary("maps");
-        const { AdvancedMarkerElement, PinElement } = await google.maps.importLibrary(
-            "marker",
-        );
-        const map = new Map(document.getElementById("googlemaps"), {
-            zoom: 14,
-            center: { lat: -37.817240, lng: 144.955820 },
-            mapId: "YOUR_MAP_API_ID",
-        });
-        const markers = [
-            {
-                position: { lat: -37.817240, lng: 144.955820 },
-                title: "Office 1<br>Melbourne, 121 King St, Australia<br>Phone: 123-456-1234",
-            }
-        ];
-
-        const infoWindow = new InfoWindow();
-
-        markers.forEach(({ position, title }, i) => {
-            const pin = new PinElement({
-                background: "#e36159",
-                borderColor: "#e36159",
-                glyphColor: "#FFF",
-            });
-            const marker = new AdvancedMarkerElement({
-                position,
-                map,
-                title: `${title}`,
-                content: pin.element,
-            });
-
-            marker.addListener("click", ({ domEvent, latLng }) => {
-                const { target } = domEvent;
-
-                infoWindow.close();
-                infoWindow.setContent(marker.title);
-                infoWindow.open(marker.map, marker);
-            });
-        });	
-
-    }
-
-    initMap();	
-
-</script>
-
 @endpush
 
 @section('content')
@@ -75,12 +17,12 @@
     <div class="container position-relative z-index-2">
         <div class="row text-center text-md-start">
             <div class="col-md-8 order-2 order-md-1 align-self-center p-static">
-                <h1 class="font-weight-bold text-color-light text-10 mb-0">Contact</h1>
+                <h1 class="font-weight-bold text-color-light text-10 mb-0">{{__('main.contact')}}</h1>
             </div>
             <div class="col-md-4 order-1 order-md-2 align-self-center">
                 <ul class="breadcrumb breadcrumb-light d-block text-md-end text-4 mb-0">
-                    <li><a href="demo-finance.html" class="text-decoration-none">Home</a></li>
-                    <li class="text-upeercase active">Contact</li>
+                    <li><a href="{{'/'}}" class="text-decoration-none">{{__('main.home')}}</a></li>
+                    <li class="text-upeercase active">{{__('main.contact')}}</li>
                 </ul>
             </div>
         </div>
@@ -100,7 +42,7 @@
                 <div class="ps-md-4 ps-lg-4 py-md-5 ms-md-4">
                     <div class="d-flex align-items-center appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="900">
                         <i class="icons icon-phone text-9 text-color-light position-relative bottom-1"></i>
-                        <a href="tel:0123456789" class="text-4-5 font-weight-bold text-color-light opacity-hover-8 text-decoration-none ps-3-5">(800) 123-4567</a>
+                        <a href="tel: 111 (0)00964" class="text-4-5 font-weight-bold text-color-light opacity-hover-8 text-decoration-none ps-3-5"> 111 (0)00964</a>
                     </div>
                     <div class="d-flex align-items-center my-5-5 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="1100">
                         <img width="38" height="38" src="img/demos/finance/icons/email.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" />
@@ -108,7 +50,7 @@
                     </div>
                     <div class="d-flex align-items-center pe-lg-5 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="1300">
                         <img width="38" height="38" src="img/demos/finance/icons/map-pin.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" />
-                        <p class="text-color-light font-weight-bold text-4-5 mb-0 ps-3-5 pe-lg-5 me-lg-5">123 Street Name, New York NY 10000, USA</p>
+                        <p class="text-color-light font-weight-bold text-4-5 mb-0 ps-3-5 pe-lg-5 me-lg-5">{{__('main.contact_address')}}</p>
                     </div>
                 </div>
             </div>
@@ -135,24 +77,29 @@
                         <strong>Error!</strong> There was an error sending your message.
                         <span class="mail-error-message text-1 mt-2 d-block"></span>
                     </div>
-                    <div class="row mb-2 mx-0">
-                        <input type="text" class="form-control font-weight-semibold text-color-light px-1 py-3" name="name" placeholder="* Full Name" data-msg-required="This field is required." id="name" required="" />
-                    </div>
-                    <div class="row mx-0 mb-3">
-                        <input type="email" class="form-control font-weight-semibold text-color-light px-1 py-3" name="email" placeholder="* Email Address" data-msg-required="This field is required." id="email" required="" />
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <input type="text" class="form-control font-weight-semibold text-color-light px-1 py-3" name="name" placeholder="* {{ __('main.fullname') }}" data-msg-required="This field is required." id="name" required="" />
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <input type="email" class="form-control font-weight-semibold text-color-light px-1 py-3" name="email" placeholder="* {{ __('main.email') }}" data-msg-required="This field is required." id="email" required="" />
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <input type="text" class="form-control font-weight-semibold text-color-light px-1 py-3" name="phone" placeholder="* {{ __('main.phone') }}" data-msg-required="This field is required." id="phone" required="" />
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <input type="text" class="form-control font-weight-semibold text-color-light px-1 py-3" name="city" placeholder="* {{ __('main.city') }}" data-msg-required="This field is required." id="city" required="" />
+                        </div>
                     </div>
                     <div class="row mb-4 mx-0">
-                        <textarea name="message" id="message" rows="4" class="form-control form-control font-weight-semibold text-color-light px-1" placeholder="* Message"></textarea>
+                        <textarea name="message" id="message" rows="4" class="form-control form-control font-weight-semibold text-color-light px-1" placeholder="* {{ __('main.message') }}"></textarea>
                     </div>
-                    <input type="submit" class="btn btn-light text-color-dark font-weight-bold positive-ls-3 btn-px-5 py-3" value="SUBMIT" />
+                    <input type="submit" class="btn btn-light text-color-dark font-weight-bold positive-ls-3 btn-px-5 py-3" value="{{ __('main.submit') }}" />
                 </form>
             </div>
         </div>
     </div>
 </section>
-
-<!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
-<div id="googlemaps" class="google-map m-0" style="height: 500px;"></div>
 
 
 @endsection

@@ -4,7 +4,9 @@
             <div class="container">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto">
-                        <p class="font-weight-semibold text-color-dark text-2-5 mb-0">Where Family and Finance Come First</p>
+                        <p class="font-weight-semibold text-color-dark text-2-5 mb-0">
+                            {{__('main.iraqi audit house')}}
+                        </p>
                     </div>
                     <div class="col-auto d-flex align-items-center">
                         <div class="header-nav-top">
@@ -41,7 +43,7 @@
                     <div class="header-row">
                         <div class="header-logo">
                             <a href="{{'/'}}">
-                                <img alt="Porto Finance" width="123" src="img/logo.png">
+                                <img alt="{{__('main.iraqi audit house')}}" width="80" src="img/logo.png" alt="{{__('main.iraqi audit house')}}">
                             </a>
                         </div>
                     </div>

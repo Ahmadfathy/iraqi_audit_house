@@ -2,8 +2,8 @@
     <div class="container py-5 mt-5">
         <div class="row">
             <div class="col-lg-3 mb-4 mb-lg-0">
-                <a href="{{ url('/') }}" title="Porto Finance">
-                    <img src="img/demos/finance/logo.png" class="img-fluid mt-2" width="123" height="48" alt="Porto Finance Logo Image" />
+                <a href="{{ url('/') }}" title="{{__('main.iraqi audit house')}}">
+                    <img src="img/logo.png" class="img-fluid mt-2" width="100" alt="{{__('main.iraqi audit house')}}" />
                 </a>
             </div>
             <div class="col-lg-3 mb-4 mb-lg-0">

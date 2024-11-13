@@ -1,6 +1,7 @@
 @extends('front.layout.master')
 
 @section('title')
+    {{__('main.home')}}
 @endsection
 
 @push('css')
