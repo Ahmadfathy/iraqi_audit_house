@@ -145,7 +145,6 @@
                                 <span class="team-member-name text-color-dark font-weight-semibold text-4">
                                     {{ __('main.team_1') }}
                                 </span>
-                                <span class="team-member-desc font-weight-light">CEO</span>
                             </a>
                         </div>
                     </div>
@@ -162,7 +161,6 @@
                                 <span class="team-member-name text-color-dark font-weight-semibold text-4">
                                     {{ __('main.team_2') }}
                                 </span>
-                                <span class="team-member-desc font-weight-light">Finance Expert</span>
                             </a>
                         </div>
                     </div>
@@ -179,7 +177,6 @@
                                 <span class="team-member-name text-color-dark font-weight-semibold text-4">
                                     {{ __('main.team_3') }}
                                 </span>
-                                <span class="team-member-desc font-weight-light">Manufacturing</span>
                             </a>
                         </div>
                     </div>
@@ -196,7 +193,6 @@
                                 <span class="team-member-name text-color-dark font-weight-semibold text-4">
                                     {{ __('main.team_4') }}
                                 </span>
-                                <span class="team-member-desc font-weight-light">Project Manager</span>
                             </a>
                         </div>
                     </div>
@@ -213,7 +209,6 @@
                                 <span class="team-member-name text-color-dark font-weight-semibold text-4">
                                     {{ __('main.team_5') }}
                                 </span>
-                                <span class="team-member-desc font-weight-light">Business Development</span>
                             </a>
                         </div>
                     </div>
@@ -230,7 +225,6 @@
                                 <span class="team-member-name text-color-dark font-weight-semibold text-4">
                                     {{ __('main.team_6') }}
                                 </span>
-                                <span class="team-member-desc font-weight-light">Business Development</span>
                             </a>
                         </div>
                     </div>
