@@ -23,7 +23,7 @@
                     <div class="background-image-wrapper position-absolute top-0 left-0 right-0 bottom-0"
                         data-appear-animation="kenBurnsToLeft" data-appear-animation-duration="30s"
                         data-plugin-options="{'minWindowWidth': 0}" data-carousel-onchange-show
-                        style="background-image: url(img/demos/finance/slides/slide-1.jpg); background-size: cover; background-position: center;">
+                        style="background-image: url(img/home_slider/1.jpg); background-size: cover; background-position: center;">
                     </div>
                     <div class="container position-relative z-index-3 h-100">
                         <div class="row align-items-center justify-content-end h-100">
@@ -50,7 +50,7 @@
                     <div class="background-image-wrapper position-absolute top-0 left-0 right-0 bottom-0"
                         data-appear-animation="kenBurnsToLeft" data-appear-animation-duration="30s"
                         data-plugin-options="{'minWindowWidth': 0}" data-carousel-onchange-show
-                        style="background-image: url(img/demos/finance/slides/slide-2.jpg); background-size: cover; background-position: center;">
+                        style="background-image: url(img/home_slider/2.jpg); background-size: cover; background-position: center;">
                     </div>
                     <div class="container position-relative z-index-3 h-100">
                         <div class="row align-items-center h-100">
@@ -91,7 +91,7 @@
                     </p>
                 </div>
                 <div class="col-lg-3 text-center text-md-start text-lg-end">
-                    <a href="demo-finance-contact-us.html"
+                    <a href="{{ url('front/contact') }}"
                         class="btn text-color-hover-light bg-color-light bg-color-hover-primary font-weight-bold text-3 positive-ls-3 btn-px-5 btn-py-3 appear-animation"
                         data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="2200"
                         data-plugin-options="{'minWindowWidth': 0}">GET A QUOTE</a>
@@ -105,7 +105,7 @@
             <div class="col-lg-6 p-0">
                 <section class="parallax section section-parallax h-100 m-0" data-plugin-parallax
                     data-plugin-options="{'speed': 1.5, 'horizontalPosition': '100%'}"
-                    data-image-src="img/demos/finance/backgrounds/parallax-1.jpg" style="min-height: 315px;">
+                    data-image-src="img/354.jpg" style="min-height: 315px;">
                 </section>
             </div>
             <div class="col-lg-6 p-0">
@@ -124,7 +124,7 @@
                                     elit sit amet leo accumsan volutpat. Suspendisse hendreriast ehicula leo, vel efficitur
                                     felis ultrices non. Cras a elit sit amet leo acun volutpat. Suspendisse hendrerit
                                     vehicula leo, vel efficitur fel.</p>
-                                <a href="demo-finance-strategies.html"
+                                <a href="{{ url('front/services') }}"
                                     class="btn border rounded-0 px-5 btn-py-3 font-weight-bold positive-ls-2 text-color-dark bg-color-hover-primary text-color-hover-light appear-animation"
                                     data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="800"
                                     data-plugin-options="{'minWindowWidth': 0}">READ MORE</a>
@@ -150,7 +150,7 @@
                                     data-appear-animation-delay="600" data-plugin-options="{'minWindowWidth': 0}">Cras a
                                     elit sit amet leo accumsan volutpat. Suspendisse hendreriast ehicula leo, vel efficitur
                                     felis ultrices non. Cras a elit sit amet leo acun volutpat. Suspendisse hendrerit. </p>
-                                <a href="demo-finance-strategies.html"
+                                <a href="{{ url('front/services') }}"
                                     class="btn border rounded-0 px-5 btn-py-3 font-weight-bold positive-ls-2 text-color-dark bg-color-hover-primary text-color-hover-light appear-animation"
                                     data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="800"
                                     data-plugin-options="{'minWindowWidth': 0}">READ MORE</a>
@@ -162,7 +162,7 @@
             <div class="col-lg-6 order-1 order-lg-2 p-0">
                 <section class="parallax section section-parallax custom-parallax-bg-pos-left custom-sec-left h-100 m-0"
                     data-plugin-parallax data-plugin-options="{'speed': 1.5, 'horizontalPosition': '100%'}"
-                    data-image-src="img/demos/finance/backgrounds/parallax-2.jpg" style="min-height: 315px;">
+                    data-image-src="img/362.jpg" style="min-height: 315px;">
                 </section>
             </div>
         </div>
@@ -170,7 +170,7 @@
             <div class="col-lg-6 p-0">
                 <section class="parallax section section-parallax custom-parallax-bg-pos-left custom-sec-left h-100 m-0"
                     data-plugin-parallax data-plugin-options="{'speed': 1.5, 'horizontalPosition': '100%'}"
-                    data-image-src="img/demos/finance/backgrounds/parallax-3.jpg" style="min-height: 315px;">
+                    data-image-src="img/2148194687.jpg" style="min-height: 315px;">
                 </section>
             </div>
             <div class="col-lg-6 p-0">
@@ -189,7 +189,7 @@
                                     elit sit amet leo accumsan volutpat. Suspendisse hendreriast ehicula leo, vel efficitur
                                     felis ultrices non. Cras a elit sit amet leo acun volutpat. Suspendisse hendrerit
                                     vehicula leo, vel efficitur fel.</p>
-                                <a href="demo-finance-strategies.html"
+                                <a href="{{ url('front/services') }}"
                                     class="btn border rounded-0 px-5 btn-py-3 font-weight-bold positive-ls-2 text-color-dark bg-color-hover-primary text-color-hover-light appear-animation"
                                     data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="800"
                                     data-plugin-options="{'minWindowWidth': 0}">READ MORE</a>
@@ -201,8 +201,8 @@
         </div>
     </div>
 
-    <section class="section overlay overlay-show overlay-color-primary custom-overlay-opacity-95 border-0 m-0"
-        style="background: url(img/demos/finance/backgrounds/background-1.jpg); background-size: cover; background-position: center;">
+    <section class="section overlay overlay-show overlay-color-primary custom-overlay-opacity-85 border-0 m-0"
+        style="background: url(img/7359.jpg); background-size: cover; background-position: center;">
         <div class="container position-relative z-index-2 pt-5">
             <div class="row">
                 <div class="col text-center">
@@ -257,127 +257,116 @@
                 <h3 class="font-weight-bold text-color-default line-height-1 text-4 ls-0 mb-1 appear-animation"
                     data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="200"
                     data-plugin-options="{'minWindowWidth': 0}">MEET OUR TEAM</h3>
-                <h2 class="text-color-dark font-weight-bold text-8 appear-animation"
+                {{-- <h2 class="text-color-dark font-weight-bold text-8 appear-animation"
                     data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="400"
-                    data-plugin-options="{'minWindowWidth': 0}">Real Professionals</h2>
+                    data-plugin-options="{'minWindowWidth': 0}">Real Professionals</h2> --}}
             </div>
         </div>
         <div class="row justify-content-center appear-animation" data-appear-animation="fadeInUpShorterPlus"
             data-appear-animation-delay="600" data-plugin-options="{'minWindowWidth': 0}">
             <div class="col-sm-9 col-md-7 col-lg-4">
-                <a href="demo-finance-team.html#teamMember1" class="text-decoration-none">
+                <div class="text-decoration-none">
                     <div class="card custom-card-style-2 border-0 border-radius-0">
                         <div class="card-img-top">
-                            <img src="img/demos/finance/team/team-1.jpg" class="img-fluid"
+                            <img src="img/team.jpg" class="w-100pct img-fluid"
                                 alt="John Doe Professional Image" />
                         </div>
                         <div class="card-body text-center">
-                            <h4 class="text-color-dark font-weight-bold text-5-5 mb-1">John Doe</h4>
+                            <h4 class="text-color-dark font-weight-normal text-4 mb-3">{{ __('main.team_1') }}</h4>
                             <h5
                                 class="d-block text-color-default font-weight-semibold line-height-1 positive-ls-2 text-2 mb-3">
                                 CEO & FOUNDER</h5>
-                            <p class="text-3-5">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendreriast ehicula
-                                leo, vel efficitur felis. </p>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <div class="col-sm-9 col-md-7 col-lg-4">
-                <a href="demo-finance-team.html#teamMember2" class="text-decoration-none">
+                <div class="text-decoration-none">
                     <div class="card custom-card-style-2 border-0 border-radius-0">
                         <div class="card-img-top">
-                            <img src="img/demos/finance/team/team-2.jpg" class="img-fluid"
+                            <img src="img/team.jpg" class="w-100pct img-fluid"
                                 alt="Janice Doe Professional Image" />
                         </div>
                         <div class="card-body text-center">
-                            <h4 class="text-color-dark font-weight-bold text-5-5 mb-1">Janice Doe</h4>
+                            <h4 class="text-color-dark font-weight-normal text-4 mb-3">{{ __('main.team_2') }}</h4>
                             <h5
                                 class="d-block text-color-default font-weight-semibold line-height-1 positive-ls-2 text-2 mb-3">
                                 CHIEF OFFICER</h5>
-                            <p class="text-3-5">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendreriast ehicula
-                                leo, vel efficitur felis. </p>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <div class="col-sm-9 col-md-7 col-lg-4">
-                <a href="demo-finance-team.html#teamMember3" class="text-decoration-none">
+                <div class="text-decoration-none">
                     <div class="card custom-card-style-2 border-0 border-radius-0">
                         <div class="card-img-top">
-                            <img src="img/demos/finance/team/team-3.jpg" class="img-fluid"
+                            <img src="img/team.jpg" class="w-100pct img-fluid"
                                 alt="Matt Doe Professional Image" />
                         </div>
                         <div class="card-body text-center">
-                            <h4 class="text-color-dark font-weight-bold text-5-5 mb-1">Matt Doe</h4>
+                            <h4 class="text-color-dark font-weight-normal text-4 mb-3">{{ __('main.team_3') }}</h4>
                             <h5
                                 class="d-block text-color-default font-weight-semibold line-height-1 positive-ls-2 text-2 mb-3">
                                 RISK ANALYST</h5>
-                            <p class="text-3-5">Cras a elit sit amet leo accumsan volutpat. Suspendisse hendreriast ehicula
-                                leo, vel efficitur felis. </p>
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
             <div class="col-12 text-center mt-4">
-                <a href="demo-finance-team.html"
-                    class="btn border rounded-0 px-5 btn-py-3 font-weight-bold positive-ls-2 text-color-dark bg-color-hover-primary text-color-hover-light">VIEW
-                    MORE</a>
+                <a href="{{ url('front/team') }}"
+                    class="btn border rounded-0 px-5 btn-py-3 font-weight-bold positive-ls-2 text-color-dark bg-color-hover-primary text-color-hover-light">
+                    {{ __('main.view_more') }}
+                </a>
             </div>
         </div>
     </div>
 
     <section class="section bg-color-grey border-0 m-0">
         <div class="container pt-5 pb-3">
-            <div class="row">
+            {{-- <div class="row">
                 <div class="col text-center">
                     <h3 class="font-weight-bold text-color-default line-height-1 text-4 ls-0 mb-1">3 BASIC STEPS</h3>
                     <h2 class="text-color-dark font-weight-bold text-8">Why Choose Us?</h2>
                 </div>
-            </div>
-            <div class="row process custom-process justify-content-center mt-4">
-                <div class="process-step col-md-9 col-lg-4 mb-5 mb-lg-4 appear-animation"
-                    data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
+            </div> --}}
+            <div class="row process custom-process justify-content-center mt-4 align-items-start">
+                <div class="process-step col-md-9 col-lg-4 mb-5 mb-lg-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
                     <div class="process-step-circle border-width-3 mb-3">
                         <strong class="process-step-circle-content">
-                            <img width="58" height="58" src="img/demos/finance/icons/box.svg" alt=""
-                                data-icon
-                                data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-stroke-color-primary'}" />
+                            <img width="58" height="58" src="img/eye-svgrepo-com.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-stroke-color-primary'}" />
                         </strong>
                     </div>
                     <div class="process-step-content px-4">
-                        <h4 class="font-weight-bold text-6 pb-1 mb-2">Product</h4>
-                        <p class="text-3-5 text-color-dark mb-0">Cras a elit sit amet leo accumsan volutpat. Suspendisse
-                            hendreriast ehicula leo, vel efficitur felis. </p>
+                        <h4 class="font-weight-bold text-6 pb-1 mb-2">{{__('main.vision_title')}}</h4>
+                        <p class="text-3-5 text-color-dark mb-0">
+                            {{__('main.vision_disc')}}    
+                        </p>
                     </div>
                 </div>
-                <div class="process-step col-md-9 col-lg-4 mb-5 mb-lg-4 appear-animation"
-                    data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">
+                <div class="process-step col-md-9 col-lg-4 mb-5 mb-lg-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">
                     <div class="process-step-circle border-width-3 mb-3">
                         <strong class="process-step-circle-content">
-                            <img width="58" height="58" src="img/demos/finance/icons/refresh-cw.svg"
-                                alt="" data-icon
-                                data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-stroke-color-primary'}" />
+                            <img width="58" height="58" src="img/message-lines-svgrepo-com.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-stroke-color-primary'}" />
                         </strong>
                     </div>
                     <div class="process-step-content px-4">
-                        <h4 class="font-weight-bold text-6 pb-1 mb-2">Process</h4>
-                        <p class="text-3-5 text-color-dark mb-0">Cras a elit sit amet leo accumsan volutpat. Suspendisse
-                            hendreriast ehicula leo, vel efficitur felis. </p>
+                        <h4 class="font-weight-bold text-6 pb-1 mb-2">{{__('main.message_title')}}</h4>
+                        <p class="text-3-5 text-color-dark mb-0">
+                            {{__('main.message_disc')}}    
+                        </p>
                     </div>
                 </div>
-                <div class="process-step col-md-9 col-lg-4 mb-5 mb-lg-4 appear-animation"
-                    data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
+                <div class="process-step col-md-9 col-lg-4 mb-5 mb-lg-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
                     <div class="process-step-circle border-width-3 mb-3">
                         <strong class="process-step-circle-content">
-                            <img width="58" height="58" src="img/demos/finance/icons/people.svg" alt=""
-                                data-icon
-                                data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" />
+                            <img width="58" height="58" src="img/diamond-svgrepo-com.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" />
                         </strong>
                     </div>
                     <div class="process-step-content px-4">
-                        <h4 class="font-weight-bold text-6 pb-1 mb-2">People</h4>
-                        <p class="text-3-5 text-color-dark mb-0">Cras a elit sit amet leo accumsan volutpat. Suspendisse
-                            hendreriast ehicula leo, vel efficitur felis. </p>
+                        <h4 class="font-weight-bold text-6 pb-1 mb-2">{{__('main.values_title')}}</h4>
+                        <p class="text-3-5 text-color-dark mb-0">
+                            {{__('main.values_disc')}}    
+                        </p>
                     </div>
                 </div>
             </div>
@@ -459,91 +448,6 @@
 
     <hr>
 
-    <div class="container py-5 mt-3 mb-5-5">
-        <div class="row mb-2">
-            <div class="col text-center">
-                <h3 class="font-weight-bold text-color-default line-height-1 text-4 ls-0 mb-1 appear-animation"
-                    data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">NEWS AND EVENTS</h3>
-                <h2 class="text-color-dark font-weight-bold text-8 appear-animation"
-                    data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">Our Blog</h2>
-            </div>
-        </div>
-        <div class="row appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">
-            <div class="col-lg-4 mb-5-5 mb-lg-0">
-                <article>
-                    <header class="mb-3">
-                        <div class="bg-primary d-inline-flex justify-content-center">
-                            <time
-                                class="d-flex flex-column align-items-center text-color-light font-weight-semibold line-height-1 text-6 py-2 px-4-5">
-                                18
-                                <span
-                                    class="custom-font-size-1 font-weight-medium line-height-1 positive-ls-3 position-relative left-1">FEB</span>
-                            </time>
-                        </div>
-                    </header>
-                    <span class="positive-ls-2 text-2">BY ADMIN</span>
-                    <h4 class="font-weight-bold text-5-5 mb-2">
-                        <a href="demo-finance-blog-post.html"
-                            class="text-color-dark text-color-hover-primary text-decoration-none">Lorem ipsum dolor sit
-                            amet, consectetur</a>
-                    </h4>
-                    <p class="text-3-5 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque rutrum
-                        pellentesqu...</p>
-                    <a href="demo-finance-blog-post.html"
-                        class="text-color-primary text-decoration-none font-weight-medium opacity-hover-8">View More</a>
-                </article>
-            </div>
-            <div class="col-lg-4 mb-5-5 mb-lg-0">
-                <article>
-                    <header class="mb-3">
-                        <div class="bg-primary d-inline-flex justify-content-center">
-                            <time
-                                class="d-flex flex-column align-items-center text-color-light font-weight-semibold line-height-1 text-6 py-2 px-4-5">
-                                18
-                                <span
-                                    class="custom-font-size-1 font-weight-medium line-height-1 positive-ls-3 position-relative left-1">FEB</span>
-                            </time>
-                        </div>
-                    </header>
-                    <span class="positive-ls-2 text-2">BY ADMIN</span>
-                    <h4 class="font-weight-bold text-5-5 mb-2">
-                        <a href="demo-finance-blog-post.html"
-                            class="text-color-dark text-color-hover-primary text-decoration-none">Lorem ipsum dolor sit
-                            amet, consectetur</a>
-                    </h4>
-                    <p class="text-3-5 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque rutrum
-                        pellentesqu...</p>
-                    <a href="demo-finance-blog-post.html"
-                        class="text-color-primary text-decoration-none font-weight-medium opacity-hover-8">View More</a>
-                </article>
-            </div>
-            <div class="col-lg-4">
-                <article>
-                    <header class="mb-3">
-                        <div class="bg-primary d-inline-flex justify-content-center">
-                            <time
-                                class="d-flex flex-column align-items-center text-color-light font-weight-semibold line-height-1 text-6 py-2 px-4-5">
-                                18
-                                <span
-                                    class="custom-font-size-1 font-weight-medium line-height-1 positive-ls-3 position-relative left-1">FEB</span>
-                            </time>
-                        </div>
-                    </header>
-                    <span class="positive-ls-2 text-2">BY ADMIN</span>
-                    <h4 class="font-weight-bold text-5-5 mb-2">
-                        <a href="demo-finance-blog-post.html"
-                            class="text-color-dark text-color-hover-primary text-decoration-none">Lorem ipsum dolor sit
-                            amet, consectetur</a>
-                    </h4>
-                    <p class="text-3-5 mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque rutrum
-                        pellentesqu...</p>
-                    <a href="demo-finance-blog-post.html"
-                        class="text-color-primary text-decoration-none font-weight-medium opacity-hover-8">View More</a>
-                </article>
-            </div>
-        </div>
-    </div>
-
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-6 p-0">
@@ -618,12 +522,14 @@
                                 <img width="38" height="38" src="img/demos/finance/icons/map-pin.svg"
                                     alt="" data-icon
                                     data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" />
-                                <p class="text-color-light font-weight-bold text-4-5 mb-0 ps-3-5 pe-lg-5 me-lg-5">123
-                                    Street Name, New York NY 10000, USA</p>
+                                <p class="text-color-light font-weight-bold text-4-5 mb-0 ps-3-5 pe-lg-5 me-lg-5">
+                                    {{__('main.contact_address')}}
+                                </p>
                             </div>
-                            <a href="demo-finance-company.html"
-                                class="btn btn-light text-color-dark font-weight-bold positive-ls-3 btn-px-5 py-3">ABOUT
-                                US</a>
+                            <a href="{{ url('front/about') }}"
+                                class="btn btn-light text-color-dark font-weight-bold positive-ls-3 btn-px-5 py-3">
+                                {{__('main.about')}}
+                            </a>
                         </div>
                     </div>
                 </section>

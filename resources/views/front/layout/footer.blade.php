@@ -52,19 +52,22 @@
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="col-12 col-sm-auto text-center text-sm-start order-2 order-sm-1">
-                    <p class="text-3">Porto Finance © 2024. All Rights Reserved.</p>
+                    <p class="text-3">{{__('main.iraqi audit house')}} © <span id="year"></span>. {{__('main.All Rights Reserved')}}.</p>
+                    <script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
                 </div>
                 <div class="col-12 col-sm-auto order-1 order-sm-2 mb-2 mb-sm-0">
                     <div class="d-flex align-items-center justify-content-center">
-                        <a class="text-color-dark text-color-hover-primary font-weight-semibold text-3 text-decoration-none px-3" href="#" role="button" id="dropdownLanguage" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            ENG
-                            <i class="fas fa-angle-down ms-1"></i>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-arrow-centered dropdown-menu-arrow-centered-style-2 min-width-0" aria-labelledby="dropdownLanguage">
-                            <a class="dropdown-item text-1" href="#">ESP</a>
-                            <a class="dropdown-item text-1" href="#">FRA</a>
-                            <a class="dropdown-item text-1" href="#">ENG</a>
-                        </div>
+                        @if (app()->getLocale() == 'ar')
+                            <a class="text-color-dark text-color-hover-primary font-weight-semibold text-2-5 text-decoration-none px-3"
+                                href="{{ LaravelLocalization::getLocalizedURL('en', null, [], true) }}">
+                                ENG
+                            </a>
+                        @else
+                            <a class="text-color-dark text-color-hover-primary font-weight-semibold text-2-5 text-decoration-none px-3"
+                                href="{{ LaravelLocalization::getLocalizedURL('ar', null, [], true) }}">
+                                العربية
+                            </a>
+                        @endif
                         <ul class="social-icons social-icons-clean social-icons-icon-dark social-icons-medium border border-top-0 border-end-0 border-bottom-0 ps-3 ms-2 mb-0">
                             <li class="social-icons-facebook">
                                 <a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>

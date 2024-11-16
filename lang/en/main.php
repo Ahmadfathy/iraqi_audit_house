@@ -39,4 +39,6 @@ return [
     'city' => 'City',
     'message' => 'Message',
     'submit' => 'SUBMIT',
+    'All Rights Reserved' => 'All Rights Reserved',
+    'view_more' => 'View More'
 ];

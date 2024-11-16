@@ -112,9 +112,9 @@
 
 @section('content')
     <section
-        class="page-header page-header-modern page-header-background overlay overlay-show overlay-color-primary overlay-op-9 border-0 m-0"
+        class="page-header page-header-modern page-header-background overlay overlay-show overlay-color-primary overlay-op-8 border-0 m-0"
         data-plugin-parallax data-plugin-options="{'speed': 1.5, 'parallaxHeight': '125%', 'fadeIn': true}"
-        data-image-src="img/demos/finance/backgrounds/background-2.jpg">
+        data-image-src="img/bg_page_title.jpg">
         <div class="container position-relative z-index-2">
             <div class="row text-center text-md-start">
                 <div class="col-md-8 order-2 order-md-1 align-self-center p-static">
@@ -135,97 +135,97 @@
             <div class="row team-list sort-destination" data-sort-id="team">
                 <div class="col-md-4 isotope-item leadership">
                     <div class="team-item mb-4 p-0 pb-2">
-                        <a href="demo-business-consulting-team-detail.html" class="text-decoration-none">
+                        <div class="text-decoration-none">
                             <span class="image-wrapper">
                                 <img src="img/demos/business-consulting/team/team-1.jpg" alt="" class="img-fluid" />
                             </span>
-                        </a>
+                        </div>
                         <div class="team-infos">
-                            <a href="demo-business-consulting-team-detail.html" class="text-decoration-none">
+                            <div class="text-decoration-none">
                                 <span class="team-member-name text-color-dark font-weight-semibold text-4">
                                     {{ __('main.team_1') }}
                                 </span>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 isotope-item other">
                     <div class="team-item mb-4 p-0 pb-2">
-                        <a href="demo-business-consulting-team-detail.html" class="text-decoration-none">
+                        <div class="text-decoration-none">
                             <span class="image-wrapper">
                                 <img src="img/demos/business-consulting/team/team-2.jpg" alt="" class="img-fluid" />
                             </span>
-                        </a>
+                        </div>
                         <div class="team-infos">
-                            <a href="demo-business-consulting-team-detail.html" class="text-decoration-none">
+                            <div class="text-decoration-none">
                                 <span class="team-member-name text-color-dark font-weight-semibold text-4">
                                     {{ __('main.team_2') }}
                                 </span>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 isotope-item other">
                     <div class="team-item mb-4 p-0 pb-2">
-                        <a href="demo-business-consulting-team-detail.html" class="text-decoration-none">
+                        <div class="text-decoration-none">
                             <span class="image-wrapper">
                                 <img src="img/demos/business-consulting/team/team-3.jpg" alt="" class="img-fluid" />
                             </span>
-                        </a>
+                        </div>
                         <div class="team-infos">
-                            <a href="demo-business-consulting-team-detail.html" class="text-decoration-none">
+                            <div class="text-decoration-none">
                                 <span class="team-member-name text-color-dark font-weight-semibold text-4">
                                     {{ __('main.team_3') }}
                                 </span>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 isotope-item other">
                     <div class="team-item mb-4 p-0 pb-2">
-                        <a href="demo-business-consulting-team-detail.html" class="text-decoration-none">
+                        <div class="text-decoration-none">
                             <span class="image-wrapper">
                                 <img src="img/demos/business-consulting/team/team-4.jpg" alt="" class="img-fluid" />
                             </span>
-                        </a>
+                        </div>
                         <div class="team-infos">
-                            <a href="demo-business-consulting-team-detail.html" class="text-decoration-none">
+                            <div class="text-decoration-none">
                                 <span class="team-member-name text-color-dark font-weight-semibold text-4">
                                     {{ __('main.team_4') }}
                                 </span>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 isotope-item other">
                     <div class="team-item mb-4 p-0 pb-2">
-                        <a href="demo-business-consulting-team-detail.html" class="text-decoration-none">
+                        <div class="text-decoration-none">
                             <span class="image-wrapper">
                                 <img src="img/demos/business-consulting/team/team-5.jpg" alt="" class="img-fluid" />
                             </span>
-                        </a>
+                        </div>
                         <div class="team-infos">
-                            <a href="demo-business-consulting-team-detail.html" class="text-decoration-none">
+                            <div class="text-decoration-none">
                                 <span class="team-member-name text-color-dark font-weight-semibold text-4">
                                     {{ __('main.team_5') }}
                                 </span>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 isotope-item other">
                     <div class="team-item mb-4 p-0 pb-2">
-                        <a href="demo-business-consulting-team-detail.html" class="text-decoration-none">
+                        <div class="text-decoration-none">
                             <span class="image-wrapper">
                                 <img src="img/demos/business-consulting/team/team-5.jpg" alt="" class="img-fluid" />
                             </span>
-                        </a>
+                        </div>
                         <div class="team-infos">
-                            <a href="demo-business-consulting-team-detail.html" class="text-decoration-none">
+                            <div class="text-decoration-none">
                                 <span class="team-member-name text-color-dark font-weight-semibold text-4">
                                     {{ __('main.team_6') }}
                                 </span>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>

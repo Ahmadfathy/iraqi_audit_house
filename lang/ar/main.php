@@ -38,6 +38,8 @@ return [
     'phone' => 'الهاتف',
     'city' => 'المدينة',
     'message' => 'الرسالة',
-    'submit' => 'إرسال'
+    'submit' => 'إرسال',
+    'All Rights Reserved' => 'جميع الحقوق محفوظة',
+    'view_more' => 'عرض المزيد'
     
 ];

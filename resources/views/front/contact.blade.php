@@ -13,7 +13,7 @@
 @section('content')
 
     
-<section class="page-header page-header-modern page-header-background overlay overlay-show overlay-color-primary overlay-op-9 border-0 m-0" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'parallaxHeight': '125%', 'fadeIn': true}" data-image-src="img/demos/finance/backgrounds/background-2.jpg">
+<section class="page-header page-header-modern page-header-background overlay overlay-show overlay-color-primary overlay-op-8 border-0 m-0" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'parallaxHeight': '125%', 'fadeIn': true}" data-image-src="img/bg_page_title.jpg">
     <div class="container position-relative z-index-2">
         <div class="row text-center text-md-start">
             <div class="col-md-8 order-2 order-md-1 align-self-center p-static">
