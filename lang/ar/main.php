@@ -2,6 +2,7 @@
 
 return [
     'iraqi audit house' => 'بيت التدقيق العراقي',
+    'slogan' => 'حيث تلتقي الخبرة بالمعرفة',
     'home' => 'الرئيسية',
     'about' => 'من نحن',
     'services' => 'تخصصاتنا',
@@ -40,6 +41,11 @@ return [
     'message' => 'الرسالة',
     'submit' => 'إرسال',
     'All Rights Reserved' => 'جميع الحقوق محفوظة',
-    'view_more' => 'عرض المزيد'
+    'view_more' => 'عرض المزيد',
+    'statistics' => 'الإحصائيات',
+    'statistic_1' => 'إحصائية 1',
+    'statistic_2' => 'إحصائية 2',
+    'statistic_3' => 'إحصائية 3',
+    'statistic_4' => 'إحصائية 4',
     
 ];

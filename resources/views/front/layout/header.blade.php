@@ -5,11 +5,11 @@
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto">
                         <p class="font-weight-semibold text-color-dark text-2-5 mb-0">
-                            {{__('main.iraqi audit house')}}
+                            {{__('main.slogan')}}
                         </p>
                     </div>
                     <div class="col-auto d-flex align-items-center">
-                        <div class="header-nav-top">
+                        {{-- <div class="header-nav-top">
                             @if (app()->getLocale() == 'ar')
                                 <a class="text-color-dark text-color-hover-primary font-weight-semibold text-2-5 text-decoration-none px-3"
                                     href="{{ LaravelLocalization::getLocalizedURL('en', null, [], true) }}">
@@ -21,8 +21,8 @@
                                     العربية
                                 </a>
                             @endif
-                        </div>
-                        <ul class="header-social-icons social-icons social-icons-clean social-icons-icon-dark border border-top-0 border-end-0 border-bottom-0 ps-3 ms-2 mb-0 d-none d-sm-block">
+                        </div> --}}
+                        {{-- <ul class="header-social-icons social-icons social-icons-clean social-icons-icon-dark border border-top-0 border-end-0 border-bottom-0 ps-3 ms-2 mb-0 d-none d-sm-block">
                             <li class="social-icons-facebook">
                                 <a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
                             </li>
@@ -32,7 +32,7 @@
                             <li class="social-icons-linkedin">
                                 <a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
                             </li>
-                        </ul>
+                        </ul> --}}
                     </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@
                                 </div>
                                 <div class="header-extra-info-text line-height-2">
                                     <span class="text-1 font-weight-semibold text-color-default">CALL US NOW</span>
-                                    <strong class="text-4"><a href="tel:+1234567890" class="text-color-hover-primary text-decoration-none">(800) 123-4567</a></strong>
+                                    <strong class="text-4"><a href="tel:00964(78)11111565" class="text-color-hover-primary text-decoration-none" dir="ltr">00964(78)11111565</a></strong>
                                 </div>
                             </li>
                         </ul>

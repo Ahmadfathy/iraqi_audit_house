@@ -42,11 +42,11 @@
                 <div class="ps-md-4 ps-lg-4 py-md-5 ms-md-4">
                     <div class="d-flex align-items-center appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="900">
                         <i class="icons icon-phone text-9 text-color-light position-relative bottom-1"></i>
-                        <a href="tel: 111 (0)00964" class="text-4-5 font-weight-bold text-color-light opacity-hover-8 text-decoration-none ps-3-5"> 111 (0)00964</a>
+                        <a href="tel:00964(78)11111565" class="text-4-5 font-weight-bold text-color-light opacity-hover-8 text-decoration-none ps-3-5" dir="ltr">00964(78)11111565</a>
                     </div>
                     <div class="d-flex align-items-center my-5-5 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="1100">
                         <img width="38" height="38" src="img/demos/finance/icons/email.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" />
-                        <a href="mailto:example@domain.com" class="text-4-5 font-weight-bold text-color-light opacity-hover-8 text-decoration-none ps-3-5">porto@domain.com</a>
+                        <a href="mailto:example@domain.com" class="text-4-5 font-weight-bold text-color-light opacity-hover-8 text-decoration-none ps-3-5">example@domain.com</a>
                     </div>
                     <div class="d-flex align-items-center pe-lg-5 appear-animation" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="1300">
                         <img width="38" height="38" src="img/demos/finance/icons/map-pin.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}" />

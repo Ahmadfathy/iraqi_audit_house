@@ -9,16 +9,16 @@
             <div class="col-lg-3 mb-4 mb-lg-0">
                 <h4 class="text-color-dark font-weight-bold mb-4-5">Navigation</h4>
                 <ul class="list list-unstyled columns-lg-2 text-3-5">
-                    <li><a href="{{ url('/') }}">Home</a></li>
-                    <li><a href="{{ url('front/about') }}">Company</a></li>
-                    <li><a href="{{ url('front/services') }}">Strategies</a></li>
-                    <li><a href="{{ url('front/team') }}">Team</a></li>
-                    <li><a href="{{ url('front/contact') }}">Contact</a></li>
+                    <li><a href="{{ url('/') }}">{{__('main.home')}}</a></li>
+                    <li><a href="{{ url('front/about') }}">{{__('main.about')}}</a></li>
+                    <li><a href="{{ url('front/services') }}">{{__('main.services')}}</a></li>
+                    <li><a href="{{ url('front/team') }}">{{__('main.team')}}</a></li>
+                    <li><a href="{{ url('front/contact') }}">{{__('main.contact')}}</a></li>
                 </ul>
             </div>
             <div class="col-lg-2 mb-4 mb-lg-0">
-                <h4 class="text-color-dark font-weight-bold mb-4-5">Policies</h4>
-                <ul class="list list-unstyled text-3-5">
+                <h4 class="text-color-dark font-weight-bold mb-4-5 d-none">Policies</h4>
+                <ul class="list list-unstyled text-3-5 d-none">
                     <li><a href="#">Privacy Policy</a></li>
                     <li><a href="#">Terms of Use</a></li>
                     <li><a href="#">FAQ's</a></li>
@@ -55,7 +55,7 @@
                     <p class="text-3">{{__('main.iraqi audit house')}} © <span id="year"></span>. {{__('main.All Rights Reserved')}}.</p>
                     <script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
                 </div>
-                <div class="col-12 col-sm-auto order-1 order-sm-2 mb-2 mb-sm-0">
+                {{-- <div class="col-12 col-sm-auto order-1 order-sm-2 mb-2 mb-sm-0">
                     <div class="d-flex align-items-center justify-content-center">
                         @if (app()->getLocale() == 'ar')
                             <a class="text-color-dark text-color-hover-primary font-weight-semibold text-2-5 text-decoration-none px-3"
@@ -80,7 +80,7 @@
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>

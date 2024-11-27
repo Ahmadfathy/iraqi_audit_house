@@ -2,6 +2,7 @@
 
 return [
     'iraqi audit house' => 'Iraqi Audit House',
+    'slogan' => 'Wehre Expereience Meets Knowledge',
     'home' => 'Home',
     'about' => 'About',
     'services' => 'Services',
@@ -40,5 +41,10 @@ return [
     'message' => 'Message',
     'submit' => 'SUBMIT',
     'All Rights Reserved' => 'All Rights Reserved',
-    'view_more' => 'View More'
+    'view_more' => 'View More',
+    'statistics' => 'Statistics',
+    'statistic_1' => 'statistic_1',
+    'statistic_2' => 'statistic_2',
+    'statistic_3' => 'statistic_3',
+    'statistic_4' => 'statistic_4',
 ];
