@@ -44,6 +44,7 @@
                         <div class="header-logo">
                             <a href="{{'/'}}">
                                 <img alt="{{__('main.iraqi audit house')}}" width="80" src="img/logo.png" alt="{{__('main.iraqi audit house')}}">
+                                <span>{{__('main.iraqi audit house')}}</span>
                             </a>
                         </div>
                     </div>

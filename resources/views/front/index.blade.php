@@ -28,10 +28,10 @@
                     <div class="container position-relative z-index-3 h-100">
                         <div class="row align-items-center justify-content-end h-100">
                             <div class="col-lg-8 col-xl-7 text-center text-md-end">
-                                {{-- <h2 class="font-weight-bold text-color-default line-height-4 text-4 text-md-6 mb-2 appear-animation"
+                                <h2 class="font-weight-bold text-color-default line-height-4 text-4 text-md-6 mb-2 appear-animation"
                                     data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="800"
-                                    data-plugin-options="{'minWindowWidth': 0}">PERSONALIZED FINANCIAL PLANNING AND MORE
-                                </h2> --}}
+                                    data-plugin-options="{'minWindowWidth': 0}">{{__('main.iraqi audit house')}}
+                                </h2>
                                 <h1 class="text-color-dark font-weight-bold text-9 text-md-11 line-height-2 mb-4 appear-animation"
                                     data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="1100"
                                     data-plugin-options="{'minWindowWidth': 0}">
@@ -56,10 +56,10 @@
                     <div class="container position-relative z-index-3 h-100">
                         <div class="row align-items-center h-100">
                             <div class="col-lg-8 col-xl-7 text-center text-md-start">
-                                {{-- <h2 class="font-weight-bold text-color-default line-height-4 text-4 text-md-6 mb-2 appear-animation"
+                                <h2 class="font-weight-bold text-color-default line-height-4 text-4 text-md-6 mb-2 appear-animation"
                                     data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="800"
-                                    data-plugin-options="{'minWindowWidth': 0}">INDEPENDENT FINANCIAL ADVISOR SINCE 1985
-                                </h2> --}}
+                                    data-plugin-options="{'minWindowWidth': 0}">{{__('main.iraqi audit house')}}
+                                </h2>
                                 <h1 class="text-color-dark font-weight-bold text-9 text-md-11 line-height-2 mb-4 appear-animation"
                                     data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="1100"
                                     data-plugin-options="{'minWindowWidth': 0}">
@@ -208,7 +208,7 @@
                                 alt="John Doe Professional Image" />
                         </div>
                         <div class="card-body text-center">
-                            <h4 class="text-color-dark font-weight-normal text-4 mb-3">{{ __('main.team_1') }}</h4>
+                            <h4 class="text-color-dark font-weight-normal text-4 mb-3">{{ __('main.team_1_name') }}</h4>
                             {{-- <h5
                                 class="d-block text-color-default font-weight-semibold line-height-1 positive-ls-2 text-2 mb-3">
                                 CEO & FOUNDER</h5> --}}
@@ -224,7 +224,7 @@
                                 alt="Janice Doe Professional Image" />
                         </div>
                         <div class="card-body text-center">
-                            <h4 class="text-color-dark font-weight-normal text-4 mb-3">{{ __('main.team_2') }}</h4>
+                            <h4 class="text-color-dark font-weight-normal text-4 mb-3">{{ __('main.team_2_name') }}</h4>
                             {{-- <h5
                                 class="d-block text-color-default font-weight-semibold line-height-1 positive-ls-2 text-2 mb-3">
                                 CHIEF OFFICER</h5> --}}
@@ -240,7 +240,7 @@
                                 alt="Matt Doe Professional Image" />
                         </div>
                         <div class="card-body text-center">
-                            <h4 class="text-color-dark font-weight-normal text-4 mb-3">{{ __('main.team_3') }}</h4>
+                            <h4 class="text-color-dark font-weight-normal text-4 mb-3">{{ __('main.team_3_name') }}</h4>
                             {{-- <h5
                                 class="d-block text-color-default font-weight-semibold line-height-1 positive-ls-2 text-2 mb-3">
                                 RISK ANALYST</h5> --}}

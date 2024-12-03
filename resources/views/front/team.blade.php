@@ -130,107 +130,93 @@
         </div>
     </section>
 
-    <section class="section-secondary custom-section-padding">
-        <div class="container py-5-5 my-5-5">
-            <div class="row team-list sort-destination" data-sort-id="team">
-                <div class="col-md-4 isotope-item leadership">
-                    <div class="team-item mb-4 p-0 pb-2">
-                        <div class="text-decoration-none">
-                            <span class="image-wrapper">
-                                <img src="img/demos/business-consulting/team/team-1.jpg" alt="" class="img-fluid" />
-                            </span>
-                        </div>
-                        <div class="team-infos">
-                            <div class="text-decoration-none">
-                                <span class="team-member-name text-color-dark font-weight-semibold text-4">
-                                    {{ __('main.team_1') }}
-                                </span>
-                            </div>
-                        </div>
-                    </div>
+    <div class="container-fluid py-5-5 my-5-5">
+        <div class="row justify-content-center">
+            <div id="teamMember1" class="row align-items-center appear-animation animated fadeInUpShorterPlus appear-animation-visible mb-5" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="200" style="animation-delay: 200ms;">
+                <div class="col-lg-3 col-xl-3 pe-lg-0 mb-4-5 mb-lg-0">
+                    <img src="img/team/1.png" class="img-fluid" alt="{{ __('main.team_1_name') }}">
                 </div>
-                <div class="col-md-4 isotope-item other">
-                    <div class="team-item mb-4 p-0 pb-2">
-                        <div class="text-decoration-none">
-                            <span class="image-wrapper">
-                                <img src="img/demos/business-consulting/team/team-2.jpg" alt="" class="img-fluid" />
-                            </span>
-                        </div>
-                        <div class="team-infos">
-                            <div class="text-decoration-none">
-                                <span class="team-member-name text-color-dark font-weight-semibold text-4">
-                                    {{ __('main.team_2') }}
-                                </span>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-lg-9 col-xl-9 ps-lg-4">
+                    <h4 class="text-color-dark font-weight-bold line-height-1 mb-2">{{ __('main.team_1_name') }}</h4>
+                    <h3 class="d-block text-color-default font-weight-semibold line-height-1 positive-ls-2 text-2 mb-3">{{ __('main.team_1_position') }}</h3>
+                    <p class="text-4-4 mb-3-5">
+                        {{ __('main.team_1_info') }}
+                    </p>
                 </div>
-                <div class="col-md-4 isotope-item other">
-                    <div class="team-item mb-4 p-0 pb-2">
-                        <div class="text-decoration-none">
-                            <span class="image-wrapper">
-                                <img src="img/demos/business-consulting/team/team-3.jpg" alt="" class="img-fluid" />
-                            </span>
-                        </div>
-                        <div class="team-infos">
-                            <div class="text-decoration-none">
-                                <span class="team-member-name text-color-dark font-weight-semibold text-4">
-                                    {{ __('main.team_3') }}
-                                </span>
-                            </div>
-                        </div>
-                    </div>
+            </div>
+            <div id="teamMember2" class="row align-items-center appear-animation animated fadeInUpShorterPlus appear-animation-visible mb-5" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="200" style="animation-delay: 200ms;">
+                <div class="col-lg-3 col-xl-3 pe-lg-0 mb-4-5 mb-lg-0">
+                    <img src="img/team/4.png" class="img-fluid" alt="{{ __('main.team_1_name') }}">
                 </div>
-                <div class="col-md-4 isotope-item other">
-                    <div class="team-item mb-4 p-0 pb-2">
-                        <div class="text-decoration-none">
-                            <span class="image-wrapper">
-                                <img src="img/demos/business-consulting/team/team-4.jpg" alt="" class="img-fluid" />
-                            </span>
-                        </div>
-                        <div class="team-infos">
-                            <div class="text-decoration-none">
-                                <span class="team-member-name text-color-dark font-weight-semibold text-4">
-                                    {{ __('main.team_4') }}
-                                </span>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-lg-9 col-xl-9 ps-lg-4">
+                    <h4 class="text-color-dark font-weight-bold line-height-1 mb-2">{{ __('main.team_2_name') }}</h4>
+                    <h3 class="d-block text-color-default font-weight-semibold line-height-1 positive-ls-2 text-2 mb-3">{{ __('main.team_2_position') }}</h3>
+                    <p class="text-4-4 mb-3-5">
+                        {{ __('main.team_2_info') }}
+                    </p>
                 </div>
-                <div class="col-md-4 isotope-item other">
-                    <div class="team-item mb-4 p-0 pb-2">
-                        <div class="text-decoration-none">
-                            <span class="image-wrapper">
-                                <img src="img/demos/business-consulting/team/team-5.jpg" alt="" class="img-fluid" />
-                            </span>
-                        </div>
-                        <div class="team-infos">
-                            <div class="text-decoration-none">
-                                <span class="team-member-name text-color-dark font-weight-semibold text-4">
-                                    {{ __('main.team_5') }}
-                                </span>
-                            </div>
-                        </div>
-                    </div>
+            </div>
+            <div id="teamMember3" class="row align-items-center appear-animation animated fadeInUpShorterPlus appear-animation-visible mb-5" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="200" style="animation-delay: 200ms;">
+                <div class="col-lg-3 col-xl-3 pe-lg-0 mb-4-5 mb-lg-0">
+                    <img src="img/demos/finance/team/team-1.jpg" class="img-fluid" alt="Image of the team member">
                 </div>
-                <div class="col-md-4 isotope-item other">
-                    <div class="team-item mb-4 p-0 pb-2">
-                        <div class="text-decoration-none">
-                            <span class="image-wrapper">
-                                <img src="img/demos/business-consulting/team/team-5.jpg" alt="" class="img-fluid" />
-                            </span>
-                        </div>
-                        <div class="team-infos">
-                            <div class="text-decoration-none">
-                                <span class="team-member-name text-color-dark font-weight-semibold text-4">
-                                    {{ __('main.team_6') }}
-                                </span>
-                            </div>
-                        </div>
-                    </div>
+                <div class="col-lg-9 col-xl-9 ps-lg-4">
+                    <h4 class="text-color-dark font-weight-bold line-height-1 mb-2">{{ __('main.team_3_name') }}</h4>
+                    <h3 class="d-block text-color-default font-weight-semibold line-height-1 positive-ls-2 text-2 mb-3">{{ __('main.team_3_position') }}</h3>
+                    <p class="text-4-4 mb-3-5">
+                        {{ __('main.team_3_info') }}
+                    </p>
+                </div>
+            </div>
+            <div id="teamMember4" class="row align-items-center appear-animation animated fadeInUpShorterPlus appear-animation-visible mb-5" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="200" style="animation-delay: 200ms;">
+                <div class="col-lg-3 col-xl-3 pe-lg-0 mb-4-5 mb-lg-0">
+                    <img src="img/demos/finance/team/team-1.jpg" class="img-fluid" alt="Image of the team member">
+                </div>
+                <div class="col-lg-9 col-xl-9 ps-lg-4">
+                    <h4 class="text-color-dark font-weight-bold line-height-1 mb-2">{{ __('main.team_4_name') }}</h4>
+                    <h3 class="d-block text-color-default font-weight-semibold line-height-1 positive-ls-2 text-2 mb-3">{{ __('main.team_4_position') }}</h3>
+                    <p class="text-4-4 mb-3-5">
+                        {{ __('main.team_4_info') }}
+                    </p>
+                </div>
+            </div>
+            <div id="teamMember5" class="row align-items-center appear-animation animated fadeInUpShorterPlus appear-animation-visible mb-5" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="200" style="animation-delay: 200ms;">
+                <div class="col-lg-3 col-xl-3 pe-lg-0 mb-4-5 mb-lg-0">
+                    <img src="img/demos/finance/team/team-1.jpg" class="img-fluid" alt="Image of the team member">
+                </div>
+                <div class="col-lg-9 col-xl-9 ps-lg-4">
+                    <h4 class="text-color-dark font-weight-bold line-height-1 mb-2">{{ __('main.team_5_name') }}</h4>
+                    <h3 class="d-block text-color-default font-weight-semibold line-height-1 positive-ls-2 text-2 mb-3">{{ __('main.team_5_position') }}</h3>
+                    <p class="text-4-4 mb-3-5">
+                        {{ __('main.team_5_info') }}
+                    </p>
+                </div>
+            </div>
+            <div id="teamMember6" class="row align-items-center appear-animation animated fadeInUpShorterPlus appear-animation-visible mb-5" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="200" style="animation-delay: 200ms;">
+                <div class="col-lg-3 col-xl-3 pe-lg-0 mb-4-5 mb-lg-0">
+                    <img src="img/demos/finance/team/team-1.jpg" class="img-fluid" alt="Image of the team member">
+                </div>
+                <div class="col-lg-9 col-xl-9 ps-lg-4">
+                    <h4 class="text-color-dark font-weight-bold line-height-1 mb-2">{{ __('main.team_6_name') }}</h4>
+                    <h3 class="d-block text-color-default font-weight-semibold line-height-1 positive-ls-2 text-2 mb-3">{{ __('main.team_6_position') }}</h3>
+                    <p class="text-4-4 mb-3-5">
+                        {{ __('main.team_6_info') }}
+                    </p>
+                </div>
+            </div>
+            <div id="teamMember7" class="row align-items-center appear-animation animated fadeInUpShorterPlus appear-animation-visible mb-5" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="200" style="animation-delay: 200ms;">
+                <div class="col-lg-3 col-xl-3 pe-lg-0 mb-4-5 mb-lg-0">
+                    <img src="img/team/2.jpg" class="img-fluid" alt="Image of the team member">
+                </div>
+                <div class="col-lg-9 col-xl-9 ps-lg-4">
+                    <h4 class="text-color-dark font-weight-bold line-height-1 mb-2">{{ __('main.team_7_name') }}</h4>
+                    <h3 class="d-block text-color-default font-weight-semibold line-height-1 positive-ls-2 text-2 mb-3">{{ __('main.team_7_position') }}</h3>
+                    <p class="text-4-4 mb-3-5">
+                        {{ __('main.team_7_info') }}
+                    </p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
 @endsection
