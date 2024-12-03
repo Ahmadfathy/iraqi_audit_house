@@ -64,5 +64,6 @@ return [
     'statistic_2' => 'إحصائية 2',
     'statistic_3' => 'إحصائية 3',
     'statistic_4' => 'إحصائية 4',
+    'call_us_now' => 'إتصل الآن',
     
 ];

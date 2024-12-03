@@ -47,4 +47,5 @@ return [
     'statistic_2' => 'statistic_2',
     'statistic_3' => 'statistic_3',
     'statistic_4' => 'statistic_4',
+    'call_us_now' => 'CALL US NOW',
 ];

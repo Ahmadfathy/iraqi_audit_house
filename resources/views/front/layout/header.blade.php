@@ -5,7 +5,7 @@
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto">
                         <p class="font-weight-semibold text-color-dark text-2-5 mb-0">
-                            {{__('main.slogan')}}
+                            <span style="color: #e07620">{{__('main.iraqi audit house')}}</span> {{__('main.slogan')}}
                         </p>
                     </div>
                     <div class="col-auto d-flex align-items-center">
@@ -44,7 +44,6 @@
                         <div class="header-logo">
                             <a href="{{'/'}}">
                                 <img alt="{{__('main.iraqi audit house')}}" width="80" src="img/logo.png" alt="{{__('main.iraqi audit house')}}">
-                                <span>{{__('main.iraqi audit house')}}</span>
                             </a>
                         </div>
                     </div>
@@ -90,7 +89,9 @@
                                     <i class="icons icon-phone text-3 text-color-dark position-relative top-3"></i>
                                 </div>
                                 <div class="header-extra-info-text line-height-2">
-                                    <span class="text-1 font-weight-semibold text-color-default">CALL US NOW</span>
+                                    <span class="text-1 font-weight-semibold text-color-default">
+                                        {{__('main.call_us_now')}}
+                                    </span>
                                     <strong class="text-4"><a href="tel:00964(78)11111565" class="text-color-hover-primary text-decoration-none" dir="ltr">00964(78)11111565</a></strong>
                                 </div>
                             </li>
