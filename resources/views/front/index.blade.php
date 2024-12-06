@@ -35,7 +35,8 @@
                                 <h1 class="text-color-dark font-weight-bold text-9 text-md-11 line-height-2 mb-4 appear-animation"
                                     data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="1100"
                                     data-plugin-options="{'minWindowWidth': 0}">
-                                    {{__('main.slogan')}}
+                                    {{__('main.slogan')}}<br>{{__('main.slogan_en')}}
+
                                 </h1>
                                 {{-- <a href="#"
                                     class="btn btn-primary font-weight-bold positive-ls-3 btn-px-5 btn-py-3 appear-animation"
@@ -63,7 +64,8 @@
                                 <h1 class="text-color-dark font-weight-bold text-9 text-md-11 line-height-2 mb-4 appear-animation"
                                     data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="1100"
                                     data-plugin-options="{'minWindowWidth': 0}">
-                                    {{__('main.slogan')}}
+                                    {{__('main.slogan')}}<br>{{__('main.slogan_en')}}
+
                                 </h1>
                                 {{-- <a href="#"
                                     class="btn btn-primary font-weight-bold positive-ls-3 btn-px-5 btn-py-3 appear-animation"
@@ -275,7 +277,7 @@
                     <div class="process-step-content px-4">
                         <h4 class="font-weight-bold text-6 pb-1 mb-2">{{__('main.vision_title')}}</h4>
                         <p class="text-3-5 text-color-dark mb-0">
-                            {{__('main.vision_disc')}}    
+                            {{__('main.vision_disc')}}
                         </p>
                     </div>
                 </div>
@@ -288,7 +290,7 @@
                     <div class="process-step-content px-4">
                         <h4 class="font-weight-bold text-6 pb-1 mb-2">{{__('main.message_title')}}</h4>
                         <p class="text-3-5 text-color-dark mb-0">
-                            {{__('main.message_disc')}}    
+                            {{__('main.message_disc')}}
                         </p>
                     </div>
                 </div>
@@ -301,7 +303,7 @@
                     <div class="process-step-content px-4">
                         <h4 class="font-weight-bold text-6 pb-1 mb-2">{{__('main.values_title')}}</h4>
                         <p class="text-3-5 text-color-dark mb-0">
-                            {{__('main.values_disc')}}    
+                            {{__('main.values_disc')}}
                         </p>
                     </div>
                 </div>
