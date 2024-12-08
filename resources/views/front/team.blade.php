@@ -158,7 +158,7 @@
             </div>
             <div id="teamMember3" class="row align-items-center appear-animation animated fadeInUpShorterPlus appear-animation-visible mb-5" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="200" style="animation-delay: 200ms;">
                 <div class="col-lg-3 col-xl-3 pe-lg-0 mb-4-5 mb-lg-0">
-                    <img src="img/demos/finance/team/team-1.jpg" class="img-fluid" alt="Image of the team member">
+                    <img src="img/team/5.jpg" class="img-fluid" alt="Image of the team member">
                 </div>
                 <div class="col-lg-9 col-xl-9 ps-lg-4">
                     <h4 class="text-color-dark font-weight-bold line-height-1 mb-2">{{ __('main.team_3_name') }}</h4>
@@ -182,7 +182,7 @@
             </div>
             <div id="teamMember5" class="row align-items-center appear-animation animated fadeInUpShorterPlus appear-animation-visible mb-5" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="200" style="animation-delay: 200ms;">
                 <div class="col-lg-3 col-xl-3 pe-lg-0 mb-4-5 mb-lg-0">
-                    <img src="img/demos/finance/team/team-1.jpg" class="img-fluid" alt="Image of the team member">
+                    <img src="img/team/3.png" class="img-fluid" alt="Image of the team member">
                 </div>
                 <div class="col-lg-9 col-xl-9 ps-lg-4">
                     <h4 class="text-color-dark font-weight-bold line-height-1 mb-2">{{ __('main.team_5_name') }}</h4>

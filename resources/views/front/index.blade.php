@@ -206,7 +206,7 @@
                 <div class="text-decoration-none">
                     <div class="card custom-card-style-2 border-0 border-radius-0">
                         <div class="card-img-top">
-                            <img src="img/team.jpg" class="w-100pct img-fluid"
+                            <img src="img/team/1.png" class="w-100pct img-fluid"
                                 alt="John Doe Professional Image" />
                         </div>
                         <div class="card-body text-center">
@@ -222,7 +222,7 @@
                 <div class="text-decoration-none">
                     <div class="card custom-card-style-2 border-0 border-radius-0">
                         <div class="card-img-top">
-                            <img src="img/team.jpg" class="w-100pct img-fluid"
+                            <img src="img/team/4.png" class="w-100pct img-fluid"
                                 alt="Janice Doe Professional Image" />
                         </div>
                         <div class="card-body text-center">
@@ -238,7 +238,7 @@
                 <div class="text-decoration-none">
                     <div class="card custom-card-style-2 border-0 border-radius-0">
                         <div class="card-img-top">
-                            <img src="img/team.jpg" class="w-100pct img-fluid"
+                            <img src="img/team/5.jpg" class="w-100pct img-fluid"
                                 alt="Matt Doe Professional Image" />
                         </div>
                         <div class="card-body text-center">

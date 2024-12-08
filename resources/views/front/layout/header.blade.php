@@ -5,7 +5,7 @@
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto">
                         <p class="font-weight-semibold text-color-dark text-2-5 mb-0">
-                            <span style="color: #e07620">{{__('main.iraqi audit house')}}</span> {{__('main.slogan')}}
+                            <span style="color: #e07620" class="text-4">{{__('main.iraqi audit house')}}</span> {{__('main.slogan')}}
                         </p>
                     </div>
                     <div class="col-auto d-flex align-items-center">
@@ -42,11 +42,14 @@
                 <div class="header-column">
                     <div class="header-row">
                         <div class="header-logo">
-                            <a href="{{'/'}}">
+                            <a href="{{'/'}}" class="d-flex">
                                 <img alt="{{__('main.iraqi audit house')}}" width="80" src="img/logo.png" alt="{{__('main.iraqi audit house')}}">
                             </a>
                         </div>
                     </div>
+                </div>
+                <div class="header-column justify-content-center d-none d-sm-flex">
+                    <div style="color: #e07620" class="text-7">{{__('main.iraqi audit house')}}</div>
                 </div>
                 <div class="header-column justify-content-end">
                     <div class="header-row">
