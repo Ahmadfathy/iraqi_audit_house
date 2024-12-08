@@ -203,7 +203,7 @@
         <div class="row justify-content-center appear-animation" data-appear-animation="fadeInUpShorterPlus"
             data-appear-animation-delay="600" data-plugin-options="{'minWindowWidth': 0}">
             <div class="col-sm-9 col-md-7 col-lg-4">
-                <div class="text-decoration-none">
+                <div class="text-decoration-none border rounded p-1">
                     <div class="card custom-card-style-2 border-0 border-radius-0">
                         <div class="card-img-top">
                             <img src="img/team/1.png" class="w-100pct img-fluid"
@@ -219,7 +219,7 @@
                 </div>
             </div>
             <div class="col-sm-9 col-md-7 col-lg-4">
-                <div class="text-decoration-none">
+                <div class="text-decoration-none border rounded p-1">
                     <div class="card custom-card-style-2 border-0 border-radius-0">
                         <div class="card-img-top">
                             <img src="img/team/4.png" class="w-100pct img-fluid"
@@ -235,7 +235,7 @@
                 </div>
             </div>
             <div class="col-sm-9 col-md-7 col-lg-4">
-                <div class="text-decoration-none">
+                <div class="text-decoration-none border rounded p-1">
                     <div class="card custom-card-style-2 border-0 border-radius-0">
                         <div class="card-img-top">
                             <img src="img/team/5.jpg" class="w-100pct img-fluid"
