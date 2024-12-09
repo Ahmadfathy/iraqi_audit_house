@@ -138,10 +138,22 @@
                 </div>
                 <div class="col-lg-9 col-xl-9 ps-lg-4">
                     <h4 class="text-color-dark font-weight-bold line-height-1 mb-2">{{ __('main.team_1_name') }}</h4>
-                    <h3 class="d-block text-color-default font-weight-semibold line-height-1 positive-ls-2 text-2 mb-3">{{ __('main.team_1_position') }}</h3>
+                    {{-- <h3 class="d-block text-color-default font-weight-semibold line-height-1 positive-ls-2 text-2 mb-3">{{ __('main.team_1_position') }}</h3> --}}
                     <p class="text-4-4 mb-3-5">
                         {{ __('main.team_1_info') }}
                     </p>
+                    <ul class="social-icons social-icons-clean social-icons-icon-dark social-icons-medium mb-0">
+                        <li class="social-icons-email">
+                            <a href="DrAlaaAlSaedi@IraqiAuditHouse.com" target="_blank" title="E-Mail">
+                                <i class="fa-solid fa-envelope-open-text"></i>
+                            </a>
+                        </li>
+                        <li class="">
+                            <span class="text-4 text-color-dark--300 text-lowercase">
+                                DrAlaaAlSaedi@IraqiAuditHouse.com
+                            </span>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div id="teamMember2" class="row align-items-center appear-animation animated fadeInUpShorterPlus appear-animation-visible mb-5" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="200" style="animation-delay: 200ms;">
@@ -150,10 +162,22 @@
                 </div>
                 <div class="col-lg-9 col-xl-9 ps-lg-4">
                     <h4 class="text-color-dark font-weight-bold line-height-1 mb-2">{{ __('main.team_2_name') }}</h4>
-                    <h3 class="d-block text-color-default font-weight-semibold line-height-1 positive-ls-2 text-2 mb-3">{{ __('main.team_2_position') }}</h3>
+                    {{-- <h3 class="d-block text-color-default font-weight-semibold line-height-1 positive-ls-2 text-2 mb-3">{{ __('main.team_2_position') }}</h3> --}}
                     <p class="text-4-4 mb-3-5">
                         {{ __('main.team_2_info') }}
                     </p>
+                    <ul class="social-icons social-icons-clean social-icons-icon-dark social-icons-medium mb-0">
+                        <li class="social-icons-email">
+                            <a href="DrHadi@IraqiAudithouse.com" target="_blank" title="E-Mail">
+                                <i class="fa-solid fa-envelope-open-text"></i>
+                            </a>
+                        </li>
+                        <li class="">
+                            <span class="text-4 text-color-dark--300 text-lowercase">
+                                DrHadi@IraqiAudithouse.com
+                            </span>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div id="teamMember3" class="row align-items-center appear-animation animated fadeInUpShorterPlus appear-animation-visible mb-5" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="200" style="animation-delay: 200ms;">
@@ -162,22 +186,46 @@
                 </div>
                 <div class="col-lg-9 col-xl-9 ps-lg-4">
                     <h4 class="text-color-dark font-weight-bold line-height-1 mb-2">{{ __('main.team_3_name') }}</h4>
-                    <h3 class="d-block text-color-default font-weight-semibold line-height-1 positive-ls-2 text-2 mb-3">{{ __('main.team_3_position') }}</h3>
+                    {{-- <h3 class="d-block text-color-default font-weight-semibold line-height-1 positive-ls-2 text-2 mb-3">{{ __('main.team_3_position') }}</h3> --}}
                     <p class="text-4-4 mb-3-5">
                         {{ __('main.team_3_info') }}
                     </p>
+                    <ul class="social-icons social-icons-clean social-icons-icon-dark social-icons-medium mb-0">
+                        <li class="social-icons-email">
+                            <a href="DrAbdulkhalq@IraqiAuditHouse.com" target="_blank" title="E-Mail">
+                                <i class="fa-solid fa-envelope-open-text"></i>
+                            </a>
+                        </li>
+                        <li class="">
+                            <span class="text-4 text-color-dark--300 text-lowercase">
+                                DrAbdulkhalq@IraqiAuditHouse.com
+                            </span>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div id="teamMember4" class="row align-items-center appear-animation animated fadeInUpShorterPlus appear-animation-visible mb-5" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="200" style="animation-delay: 200ms;">
                 <div class="col-lg-3 col-xl-3 pe-lg-0 mb-4-5 mb-lg-0">
-                    <img src="img/demos/finance/team/team-1.jpg" class="img-fluid" alt="Image of the team member">
+                    <img src="img/team/user.jpg" class="img-fluid" alt="Image of the team member">
                 </div>
                 <div class="col-lg-9 col-xl-9 ps-lg-4">
                     <h4 class="text-color-dark font-weight-bold line-height-1 mb-2">{{ __('main.team_4_name') }}</h4>
-                    <h3 class="d-block text-color-default font-weight-semibold line-height-1 positive-ls-2 text-2 mb-3">{{ __('main.team_4_position') }}</h3>
+                    {{-- <h3 class="d-block text-color-default font-weight-semibold line-height-1 positive-ls-2 text-2 mb-3">{{ __('main.team_4_position') }}</h3> --}}
                     <p class="text-4-4 mb-3-5">
                         {{ __('main.team_4_info') }}
                     </p>
+                    <ul class="social-icons social-icons-clean social-icons-icon-dark social-icons-medium mb-0">
+                        <li class="social-icons-email">
+                            <a href="DrMunther@IraqiAuditHouse.com" target="_blank" title="E-Mail">
+                                <i class="fa-solid fa-envelope-open-text"></i>
+                            </a>
+                        </li>
+                        <li class="">
+                            <span class="text-4 text-color-dark--300 text-lowercase">
+                                DrMunther@IraqiAuditHouse.com
+                            </span>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div id="teamMember5" class="row align-items-center appear-animation animated fadeInUpShorterPlus appear-animation-visible mb-5" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="200" style="animation-delay: 200ms;">
@@ -186,34 +234,46 @@
                 </div>
                 <div class="col-lg-9 col-xl-9 ps-lg-4">
                     <h4 class="text-color-dark font-weight-bold line-height-1 mb-2">{{ __('main.team_5_name') }}</h4>
-                    <h3 class="d-block text-color-default font-weight-semibold line-height-1 positive-ls-2 text-2 mb-3">{{ __('main.team_5_position') }}</h3>
+                    {{-- <h3 class="d-block text-color-default font-weight-semibold line-height-1 positive-ls-2 text-2 mb-3">{{ __('main.team_5_position') }}</h3> --}}
                     <p class="text-4-4 mb-3-5">
                         {{ __('main.team_5_info') }}
                     </p>
+                    <ul class="social-icons social-icons-clean social-icons-icon-dark social-icons-medium mb-0">
+                        <li class="social-icons-email">
+                            <a href="DrWaleed@iraqiAuditHouse.com" target="_blank" title="E-Mail">
+                                <i class="fa-solid fa-envelope-open-text"></i>
+                            </a>
+                        </li>
+                        <li class="">
+                            <span class="text-4 text-color-dark--300 text-lowercase">
+                                DrWaleed@iraqiAuditHouse.com
+                            </span>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div id="teamMember6" class="row align-items-center appear-animation animated fadeInUpShorterPlus appear-animation-visible mb-5" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="200" style="animation-delay: 200ms;">
                 <div class="col-lg-3 col-xl-3 pe-lg-0 mb-4-5 mb-lg-0">
-                    <img src="img/demos/finance/team/team-1.jpg" class="img-fluid" alt="Image of the team member">
-                </div>
-                <div class="col-lg-9 col-xl-9 ps-lg-4">
-                    <h4 class="text-color-dark font-weight-bold line-height-1 mb-2">{{ __('main.team_6_name') }}</h4>
-                    <h3 class="d-block text-color-default font-weight-semibold line-height-1 positive-ls-2 text-2 mb-3">{{ __('main.team_6_position') }}</h3>
-                    <p class="text-4-4 mb-3-5">
-                        {{ __('main.team_6_info') }}
-                    </p>
-                </div>
-            </div>
-            <div id="teamMember7" class="row align-items-center appear-animation animated fadeInUpShorterPlus appear-animation-visible mb-5" data-appear-animation="fadeInUpShorterPlus" data-appear-animation-delay="200" style="animation-delay: 200ms;">
-                <div class="col-lg-3 col-xl-3 pe-lg-0 mb-4-5 mb-lg-0">
                     <img src="img/team/2.jpg" class="img-fluid" alt="Image of the team member">
                 </div>
                 <div class="col-lg-9 col-xl-9 ps-lg-4">
-                    <h4 class="text-color-dark font-weight-bold line-height-1 mb-2">{{ __('main.team_7_name') }}</h4>
-                    <h3 class="d-block text-color-default font-weight-semibold line-height-1 positive-ls-2 text-2 mb-3">{{ __('main.team_7_position') }}</h3>
+                    <h4 class="text-color-dark font-weight-bold line-height-1 mb-2">{{ __('main.team_6_name') }}</h4>
+                    {{-- <h3 class="d-block text-color-default font-weight-semibold line-height-1 positive-ls-2 text-2 mb-3">{{ __('main.team_6_position') }}</h3> --}}
                     <p class="text-4-4 mb-3-5">
-                        {{ __('main.team_7_info') }}
+                        {{ __('main.team_6_info') }}
                     </p>
+                    <ul class="social-icons social-icons-clean social-icons-icon-dark social-icons-medium mb-0">
+                        <li class="social-icons-email">
+                            <a href="Aliramadan@iraqiAuditHouse.com" target="_blank" title="E-Mail">
+                                <i class="fa-solid fa-envelope-open-text"></i>
+                            </a>
+                        </li>
+                        <li class="">
+                            <span class="text-4 text-color-dark--300 text-lowercase">
+                                Aliramadan@iraqiAuditHouse.com
+                            </span>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

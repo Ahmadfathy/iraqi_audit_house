@@ -24,7 +24,7 @@
                     <li><a href="#">FAQ's</a></li>
                 </ul>
             </div>
-            <div class="col-lg-4">
+            {{-- <div class="col-lg-4">
                 <h4 class="text-color-dark font-weight-bold mb-4-5">Newsletter</h4>
                 <div class="alert alert-success d-none" id="newsletterSuccess">
                     <strong>Success!</strong> You've been added to our email list.
@@ -38,7 +38,7 @@
                         </button>
                     </div>
                 </form>
-            </div>
+            </div> --}}
         </div>
     </div>
     <div class="container">

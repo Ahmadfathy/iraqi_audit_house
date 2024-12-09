@@ -33,17 +33,18 @@
 		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
 		<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
 
-		<!-- Theme CSS -->
-		<link rel="stylesheet" href="css/theme-elements.css">
 		<!-- Skin CSS -->
 		<link id="skinCSS" rel="stylesheet" href="css/skin.css">
-
+		
 		
 		@if (app()->getLocale() == 'ar')
 			<!-- Vendor CSS -->
+			<link rel="stylesheet" href="css/theme-elements-rtl.css">
 			<link rel="stylesheet" href="css/app-rtl.css">
 			<link rel="stylesheet" href="css/rtl-theme.css">
 		@else
+			<!-- Theme CSS -->
+			<link rel="stylesheet" href="css/theme-elements.css">
 			<link rel="stylesheet" href="css/app.css">
 			<link rel="stylesheet" href="css/theme.css">
 		@endif
